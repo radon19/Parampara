@@ -1,0 +1,40 @@
+{
+  "format": "ladakh-spiti-catalogue",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-19T19:05:25.319Z",
+  "publisher": "0x13b991900a7570bdde9b1e8bf466796bb7b11ffe",
+  "entries": [
+    {
+      "library": "Tabo",
+      "work": "Medical compendium",
+      "condition": "stable, dry",
+      "photographed": true,
+      "missing": false,
+      "notes": ""
+    },
+    {
+      "library": "Indenture",
+      "work": "Verify",
+      "condition": "stable",
+      "photographed": true,
+      "missing": false,
+      "notes": ""
+    },
+    {
+      "library": "ABC",
+      "work": "abc",
+      "condition": "dry",
+      "photographed": false,
+      "missing": false,
+      "notes": ""
+    },
+    {
+      "library": "ABC1",
+      "work": "abc2",
+      "condition": "dry",
+      "photographed": false,
+      "missing": false,
+      "notes": ""
+    }
+  ]
+}

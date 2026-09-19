@@ -1,0 +1,20 @@
+# secrets — never tracked
+.env
+.env.*
+*.key
+mnemonic.txt
+gift-code.txt
+.secrets/
+
+# allow example
+!.env.example
+
+# next
+node_modules
+.next
+out
+dist
+
+# misc
+.DS_Store
+*.log
