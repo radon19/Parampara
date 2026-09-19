@@ -1,0 +1,18 @@
+{
+  "payer": { "address": "0xB1aF64FFEB68Dcc4CE0bBA86a2329738cCF55b9e" },
+  "publisher": { "address": "0x13b991900a7570bdde9b1e8bf466796bb7b11ffe" },
+  "governance": {
+    "safe": "0x4d6cba6b600d1e8dfb6d7d968cb81d0ef301fa83",
+    "threshold": "2-of-3",
+    "pointerTopic": "catalogue-publisher-pointer"
+  },
+  "readerStartsFrom": {
+    "owner": "0x4d6cba6b600d1e8dfb6d7d968cb81d0ef301fa83",
+    "safe": "0x4d6cba6b600d1e8dfb6d7d968cb81d0ef301fa83",
+    "topic": "catalogue-publisher-pointer"
+  },
+  "topics": {
+    "pointer": "catalogue-publisher-pointer",
+    "catalogue": "ladakh-spiti-shared-catalogue"
+  }
+}
