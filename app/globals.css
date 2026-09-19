@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --parchment: #f3e6d4;
+  --parchment-deep: #e7d5b8;
+  --ink: #2a2724;
+  --ink-soft: #5c5348;
+  --pine: #1b3a2f;
+  --pine-deep: #122920;
+  --gold: #c4a36a;
+  --stone: #6e675f;
+  --ember: #c46a1b;
+  --ember-deep: #9a5212;
+}
+
+html {
+  background: var(--parchment);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1100px 480px at 50% -8%, #faf1e0 0%, var(--parchment) 62%),
+    var(--parchment);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-variant-numeric: tabular-nums;
+}
+
+h2,
+h3 {
+  font-family: var(--font-display), Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.mono {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: var(--ember);
+  color: #fff8ea;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--parchment-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pine);
+  border: 3px solid var(--parchment-deep);
+  border-radius: 8px;
+}
+
+.ledger-rule {
+  border-color: #d9c8a8;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
