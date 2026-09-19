@@ -1,0 +1,13 @@
+{
+  "performed": true,
+  "performedAt": "2026-09-19T18:30:05.526Z",
+  "outgoingSigningIdentity": "0x11040f408494b0ba244f6ff59ccb8f17cf8d1017",
+  "incomingSigningIdentity": "0x13b991900a7570bdde9b1e8bf466796bb7b11ffe",
+  "governanceIdentity": "0x4d6cba6b600d1e8dfb6d7d968cb81d0ef301fa83",
+  "safeAddress": null,
+  "safeTransactionHash": null,
+  "pointerTopic": "catalogue-publisher-pointer",
+  "pointerReference": "06fae57bb9f747015b3940c1bb5cc1d849669160dc762c9989110dd72f1bb272",
+  "previousFeedIndex": "0000000000000004",
+  "evidence": "two distinct signing identities; incoming also in identities.json and ARRANGEMENT.md; feed index and/or Safe tx hash"
+}
