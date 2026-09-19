@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" aria-labelledby="title desc">
+  <title>Parampara</title>
+  <desc id="desc">Pine folio with an unbroken thread. The catalogue survives the steward.</desc>
+  <rect width="800" height="1200" fill="#F3E6D4"></rect>
+  <path d="M400 118 C400 78 348 78 348 118 C348 150 400 150 400 186" fill="none" stroke="#2A2724" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="284" y="186" width="232" height="520" rx="116" fill="#1B3A2F"></rect>
+  <path d="M332 250 C368 360 360 470 338 640" fill="none" stroke="#C4A36A" stroke-width="6" stroke-linecap="round"></path>
+  <path d="M468 262 C432 372 438 490 462 648" fill="none" stroke="#C4A36A" stroke-width="6" stroke-linecap="round"></path>
+  <path d="M400 186 L400 686" fill="none" stroke="#6E675F" stroke-width="8" stroke-linecap="round"></path>
+  <path d="M372 706 C384 686 416 686 428 706" fill="#F3E6D4"></path>
+  <path d="M400 686 L400 722" fill="none" stroke="#6E675F" stroke-width="8" stroke-linecap="round"></path>
+  <text x="400" y="860" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="64" letter-spacing="10" fill="#2A2724">PARAMPARA</text>
+  <line x1="230" y1="900" x2="372" y2="900" stroke="#C46A1B" stroke-width="2"></line>
+  <rect x="392" y="893" width="16" height="16" fill="#C46A1B" transform="rotate(45 400 901)"></rect>
+  <line x1="428" y1="900" x2="570" y2="900" stroke="#C46A1B" stroke-width="2"></line>
+  <text x="400" y="950" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="18" letter-spacing="4.5" fill="#5C5348">THE CATALOGUE SURVIVES THE STEWARD.</text>
+</svg>
